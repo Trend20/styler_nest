@@ -12,6 +12,7 @@ import { RefundModule } from './refund/refund.module';
 import { AddressModule } from './address/address.module';
 import { WhishlistModule } from './whishlist/whishlist.module';
 import { CouponModule } from './coupon/coupon.module';
+import { InventoryModule } from './inventory/inventory.module';
 
 @Module({
   imports: [
@@ -28,6 +29,7 @@ import { CouponModule } from './coupon/coupon.module';
     AddressModule,
     WhishlistModule,
     CouponModule,
+    InventoryModule,
   ],
   controllers: [],
   providers: [],
